@@ -20,27 +20,27 @@ All colors MUST be HSL.
     --primary: 0 0% 98%;
     --primary-foreground: 0 0% 8%;
 
-    --secondary: 35 85% 52%;
-    --secondary-foreground: 0 0% 8%;
+    --secondary: 0 0% 45%;
+    --secondary-foreground: 0 0% 98%;
 
     --muted: 0 0% 18%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 35 85% 52%;
-    --accent-foreground: 0 0% 8%;
+    --accent: 0 0% 45%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 0 0% 22%;
     --input: 0 0% 22%;
-    --ring: 35 85% 52%;
+    --ring: 0 0% 45%;
 
     --radius: 0rem;
     
-    --gold: 35 85% 52%;
-    --gold-light: 38 88% 62%;
-    --gold-dark: 32 82% 42%;
+    --gold: 0 0% 45%;
+    --gold-light: 0 0% 60%;
+    --gold-dark: 0 0% 30%;
     --charcoal: 0 0% 8%;
     --charcoal-light: 0 0% 12%;
 
@@ -74,21 +74,21 @@ All colors MUST be HSL.
     --primary: 0 0% 98%;
     --primary-foreground: 0 0% 8%;
 
-    --secondary: 35 85% 52%;
-    --secondary-foreground: 0 0% 8%;
+    --secondary: 0 0% 45%;
+    --secondary-foreground: 0 0% 98%;
 
     --muted: 0 0% 18%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 35 85% 52%;
-    --accent-foreground: 0 0% 8%;
+    --accent: 0 0% 45%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 0 0% 22%;
     --input: 0 0% 22%;
-    --ring: 35 85% 52%;
+    --ring: 0 0% 45%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
