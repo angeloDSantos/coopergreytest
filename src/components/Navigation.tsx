@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import coopersLogo from "@/assets/coopers-logo-grey.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,9 +37,13 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <button
           onClick={() => scrollTo("#home")}
-          className="font-playfair text-2xl md:text-3xl font-bold text-gold hover:opacity-80 transition-opacity duration-300"
+          className="hover:opacity-80 transition-opacity duration-300"
         >
-          Coopers
+          <img 
+            src={coopersLogo}
+            alt="Coopers Interiors" 
+            className="h-12 md:h-14 w-auto"
+          />
         </button>
 
         {/* Desktop Navigation */}

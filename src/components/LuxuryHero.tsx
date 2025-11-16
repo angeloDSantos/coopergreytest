@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroPaintedWalls from "@/assets/hero-sage-room.png";
 import heroMobile from "@/assets/hero-mobile-sage.png";
-import coopersLogo from "@/assets/coopers-logo-transparent-final.png";
+import coopersLogo from "@/assets/coopers-logo-grey.png";
 
 const LuxuryHero = () => {
   return (
@@ -47,7 +47,7 @@ const LuxuryHero = () => {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 px-4">
             <Button
               onClick={() => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" })}
-              className="bg-gold hover:bg-transparent text-charcoal hover:text-gold border-2 border-gold font-poppins font-semibold text-lg px-10 py-6 tracking-wide uppercase transition-all duration-300 hover:scale-105"
+              className="bg-gold hover:bg-gold-light text-background border-2 border-gold font-poppins font-semibold text-lg px-10 py-6 tracking-wide uppercase transition-all duration-300 hover:scale-105"
             >
               See Our Work
             </Button>
@@ -55,7 +55,7 @@ const LuxuryHero = () => {
             <Button
               onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
               variant="outline"
-              className="bg-transparent hover:bg-gold border-2 border-gold text-gold hover:text-charcoal hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] font-poppins font-semibold text-lg px-10 py-6 tracking-wide uppercase transition-all duration-300 hover:scale-105"
+              className="bg-transparent hover:bg-gold border-2 border-gold text-gold hover:text-background hover:shadow-[0_0_20px_rgba(115,115,115,0.4)] font-poppins font-semibold text-lg px-10 py-6 tracking-wide uppercase transition-all duration-300 hover:scale-105"
             >
               Get a Free Quote
             </Button>
