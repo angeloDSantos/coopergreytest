@@ -1,4 +1,4 @@
-import coopersLogo from "@/assets/coopers-logo-final.png";
+import coopersLogo from "@/assets/coopers-logo-grey.png";
 
 const LuxuryFooter = () => {
   const currentYear = new Date().getFullYear();
