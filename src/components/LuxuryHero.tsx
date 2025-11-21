@@ -47,6 +47,7 @@ const LuxuryHero = () => {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 px-4">
             <Button
               onClick={() => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" })}
+              variant="ghost"
               className="bg-gold-light text-background border-2 border-gold-light font-poppins font-semibold text-lg px-10 py-6 tracking-wide uppercase transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               See Our Work
@@ -54,8 +55,8 @@ const LuxuryHero = () => {
 
             <Button
               onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
-              variant="outline"
-              className="bg-gold-light/20 border-2 border-gold-light text-gold-light font-poppins font-semibold text-lg px-10 py-6 tracking-wide uppercase transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              variant="ghost"
+              className="bg-background text-gold-light border-2 border-gold-light font-poppins font-semibold text-lg px-10 py-6 tracking-wide uppercase transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Get a Free Quote
             </Button>
