@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import coopersLogo from "@/assets/coopers-logo-grey.png";
+import coopersLogo from "@/assets/coopers-logo-final.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
