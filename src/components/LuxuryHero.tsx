@@ -9,14 +9,16 @@ const LuxuryHero = () => {
     <section id="home" className="relative h-screen overflow-hidden pt-20">
       {/* Static Background - Mobile */}
       <div
-        className="absolute inset-0 top-0 bg-center md:hidden"
+        className="absolute inset-0 top-0 md:hidden"
         style={{
           backgroundImage: `url(${heroMobile})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center center',
+          backgroundPosition: 'center top',
+          backgroundRepeat: 'no-repeat',
+          minHeight: '100vh',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
       </div>
 
       {/* Static Background - Desktop */}
