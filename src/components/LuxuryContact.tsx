@@ -78,7 +78,7 @@ const LuxuryContact = () => {
       form.append("phone", formData.phone);
       form.append("message", formData.message);
 
-      const response = await fetch("https://formspree.io/f/movpgjgp", {
+      const response = await fetch("https://formspree.io/f/mjkqbljr", {
         method: "POST",
         headers: { "Accept": "application/json" },
         body: form
