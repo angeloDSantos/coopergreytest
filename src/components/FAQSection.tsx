@@ -5,7 +5,7 @@ import BaroqueOrnaments from "@/components/BaroqueOrnaments";
 const faqs = [
   {
     question: "How much does a painter and decorator cost in Richmond?",
-    answer: "Our Richmond painter and decorator services are tailored to each project, with pricing based on the scope of work, property size, and materials required. We provide free, no-obligation quotes for all Richmond projects, whether it's a single room refresh or a complete home transformation. Call 01483 123 456 to discuss your Richmond project and receive a detailed quote."
+    answer: "Our Richmond painter and decorator services are tailored to each project, with pricing based on the scope of work, property size, and materials required. We provide free, no-obligation quotes for all Richmond projects, whether it's a single room refresh or a complete home transformation. Call 07725 349084 to discuss your Richmond project and receive a detailed quote."
   },
   {
     question: "Do you provide painting services in Ealing?",
