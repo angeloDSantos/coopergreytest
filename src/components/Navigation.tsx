@@ -41,7 +41,7 @@ const Navigation = () => {
         >
           <img 
             src={coopersLogo}
-            alt="Coopers Interiors – Guildford painter and decorator"
+            alt="Coopers Interiors – Richmond painter and decorator"
             className="h-12 md:h-14 w-auto"
           />
         </button>

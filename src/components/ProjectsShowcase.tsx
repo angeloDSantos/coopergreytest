@@ -183,7 +183,7 @@ const ProjectsShowcase = () => {
                     {mediaType === "images" ? (
                       <img
                         src={(item as typeof projects[0]).image}
-                        alt={`${item.title} interior by Guildford painter and decorator serving Surrey, Woking, Esher and Cobham`}
+                        alt={`${item.title} interior by Richmond painter and decorator serving Richmond upon Thames, Ealing and Hounslow`}
                         className="w-full h-full object-cover md:object-contain transition-transform duration-300 group-hover:scale-105"
                         loading="lazy"
                         decoding="async"
@@ -264,7 +264,7 @@ const ProjectsShowcase = () => {
                     mediaType === "images" ? (
                       <img
                         src={(currentItems[fullscreenIndex] as typeof projects[0]).image}
-                        alt={`${currentItems[fullscreenIndex].title} interior by Guildford painter and decorator in Surrey`}
+                        alt={`${currentItems[fullscreenIndex].title} interior by Richmond painter and decorator serving Richmond upon Thames, Ealing and Hounslow`}
                         className="max-w-full max-h-full object-contain"
                       />
                     ) : (

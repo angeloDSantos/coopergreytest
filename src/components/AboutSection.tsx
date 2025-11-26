@@ -32,9 +32,9 @@ const AboutSection = () => {
             </div>
 
             <p className="font-poppins text-muted-foreground text-lg leading-relaxed">
-              Guildford painter and decorator Coopers Interiors brings decades of expertise to every project. 
-              We transform homes and interiors across Surrey, Woking and Cobham with meticulous attention to detail 
-              and an unwavering commitment to quality.
+              Richmond painter and decorator Coopers Interiors brings decades of expertise to every project. 
+              We transform homes and interiors across the boroughs of Richmond upon Thames, Ealing and Hounslow 
+              with meticulous attention to detail and an unwavering commitment to quality.
             </p>
 
             <p className="font-poppins text-muted-foreground text-lg leading-relaxed">

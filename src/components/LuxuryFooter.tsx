@@ -11,7 +11,7 @@ const LuxuryFooter = () => {
             <div className="flex items-start mb-4">
               <img
                 src={coopersLogo}
-                alt="Coopers Interiors – Guildford painter and decorator"
+                alt="Coopers Interiors – Richmond painter and decorator"
                 className="h-24 md:h-28 w-auto"
                 loading="lazy"
                 decoding="async"
