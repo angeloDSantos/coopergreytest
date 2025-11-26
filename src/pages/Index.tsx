@@ -3,6 +3,9 @@ import LuxuryHero from "@/components/LuxuryHero";
 import ProjectsShowcase from "@/components/ProjectsShowcase";
 import LuxuryServices from "@/components/LuxuryServices";
 import AboutSection from "@/components/AboutSection";
+import AreasServed from "@/components/AreasServed";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import FAQSection from "@/components/FAQSection";
 import LuxuryContact from "@/components/LuxuryContact";
 import LuxuryFooter from "@/components/LuxuryFooter";
 import BaroqueDivider from "@/components/BaroqueDivider";
@@ -15,6 +18,9 @@ const Index = () => {
       <ProjectsShowcase />
       <LuxuryServices />
       <AboutSection />
+      <AreasServed />
+      <TestimonialsSection />
+      <FAQSection />
       <LuxuryContact />
       <LuxuryFooter />
     </div>
