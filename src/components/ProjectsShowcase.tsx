@@ -52,6 +52,13 @@ const ProjectsShowcase = () => {
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setCurrent(emblaApi.selectedScrollSnap());
+    // Pause all videos when sliding to a new item
+    videoRefs.current.forEach((video) => {
+      if (video && !video.paused) {
+        video.pause();
+      }
+    });
+    setPlayingVideos(new Set());
   }, [emblaApi]);
 
   useEffect(() => {
@@ -72,34 +79,33 @@ const ProjectsShowcase = () => {
     setPlayingVideos(new Set());
   }, [mediaType, emblaApi]);
 
+  const pauseAllVideos = () => {
+    videoRefs.current.forEach((video, i) => {
+      if (video && !video.paused) {
+        video.pause();
+      }
+    });
+    setPlayingVideos(new Set());
+  };
+
   const toggleVideoPlay = (index: number) => {
     const video = videoRefs.current[index];
     if (video) {
       if (video.paused) {
+        // Pause all other videos first
+        pauseAllVideos();
         video.play();
-        setPlayingVideos(prev => new Set(prev).add(index));
+        setPlayingVideos(new Set([index]));
       } else {
         video.pause();
-        setPlayingVideos(prev => {
-          const newSet = new Set(prev);
-          newSet.delete(index);
-          return newSet;
-        });
+        setPlayingVideos(new Set());
       }
     }
   };
 
   const handleFullscreenOpen = (index: number) => {
-    // Pause carousel video when opening fullscreen
-    if (mediaType === "videos") {
-      const video = videoRefs.current[index];
-      if (video) video.pause();
-      setPlayingVideos(prev => {
-        const newSet = new Set(prev);
-        newSet.delete(index);
-        return newSet;
-      });
-    }
+    // Pause all videos when opening fullscreen
+    pauseAllVideos();
     setFullscreenIndex(index);
   };
 
@@ -147,10 +153,10 @@ const ProjectsShowcase = () => {
           <div ref={emblaRef} className="overflow-hidden">
             <div className="flex">
               {currentItems.map((item, index) => (
-                <div key={index} className="flex-[0_0_100%] min-w-0">
+                <div key={index} className="flex-[0_0_100%] min-w-0 px-2 md:px-0">
                   <div 
                     onClick={() => mediaType === "images" && handleFullscreenOpen(index)}
-                    className={`relative aspect-[4/5] md:aspect-[16/10] group ${mediaType === "images" ? "cursor-pointer" : ""}`}
+                    className={`relative aspect-[9/16] md:aspect-[16/10] group ${mediaType === "images" ? "cursor-pointer" : ""}`}
                   >
                     {mediaType === "images" ? (
                       <img
