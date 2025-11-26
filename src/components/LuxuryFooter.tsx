@@ -1,4 +1,5 @@
 import coopersLogo from "@/assets/coopers-logo-final.png";
+import checkatradeLogo from "@/assets/checkatrade-logo-stars.webp";
 
 const LuxuryFooter = () => {
   const currentYear = new Date().getFullYear();
@@ -83,9 +84,9 @@ const LuxuryFooter = () => {
                 aria-label="View our Checkatrade profile"
               >
                 <img 
-                  src="https://www.checkatrade.com/images/checkatrade-badge.png" 
+                  src={checkatradeLogo}
                   alt="Checkatrade Verified" 
-                  className="h-10 md:h-12"
+                  className="h-10 md:h-12 w-auto"
                   loading="lazy"
                 />
               </a>

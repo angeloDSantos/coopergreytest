@@ -1,4 +1,5 @@
 import BaroqueOrnaments from "@/components/BaroqueOrnaments";
+import checkatradeLogo from "@/assets/checkatrade-logo-stars.webp";
 
 const AboutSection = () => {
   return (
@@ -54,9 +55,9 @@ const AboutSection = () => {
                   aria-label="View our Checkatrade profile"
                 >
                   <img 
-                    src="https://www.checkatrade.com/images/checkatrade-badge.png" 
+                    src={checkatradeLogo}
                     alt="Checkatrade Verified" 
-                    className="h-12"
+                    className="h-12 w-auto"
                     loading="lazy"
                   />
                 </a>
