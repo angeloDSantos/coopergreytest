@@ -109,6 +109,28 @@ const ProjectsShowcase = () => {
     setFullscreenIndex(index);
   };
 
+  const handleFullscreenPrev = () => {
+    if (fullscreenIndex === null) return;
+    const total = currentItems.length;
+    const newIndex = (fullscreenIndex - 1 + total) % total;
+    if (mediaType === "videos" && fullscreenVideoRef.current) {
+      fullscreenVideoRef.current.pause();
+      fullscreenVideoRef.current.currentTime = 0;
+    }
+    setFullscreenIndex(newIndex);
+  };
+
+  const handleFullscreenNext = () => {
+    if (fullscreenIndex === null) return;
+    const total = currentItems.length;
+    const newIndex = (fullscreenIndex + 1) % total;
+    if (mediaType === "videos" && fullscreenVideoRef.current) {
+      fullscreenVideoRef.current.pause();
+      fullscreenVideoRef.current.currentTime = 0;
+    }
+    setFullscreenIndex(newIndex);
+  };
+
   return (
     <section id="projects" className="py-20 bg-[#141413] relative overflow-hidden">
       <BaroqueOrnaments variant="corner-flourish" position="top-left" opacity={0.2} />
@@ -256,6 +278,25 @@ const ProjectsShowcase = () => {
                     )
                   )}
                 </div>
+                {/* Fullscreen navigation arrows (desktop only) */}
+                {fullscreenIndex !== null && (
+                  <>
+                    <button
+                      onClick={handleFullscreenPrev}
+                      className="hidden md:flex absolute left-6 top-1/2 -translate-y-1/2 w-14 h-14 bg-gray-600/80 hover:bg-gray-400 text-white hover:text-charcoal transition-all duration-300 items-center justify-center z-50"
+                      aria-label="Previous project"
+                    >
+                      <ChevronLeft size={28} />
+                    </button>
+                    <button
+                      onClick={handleFullscreenNext}
+                      className="hidden md:flex absolute right-6 top-1/2 -translate-y-1/2 w-14 h-14 bg-gray-600/80 hover:bg-gray-400 text-white hover:text-charcoal transition-all duration-300 items-center justify-center z-50"
+                      aria-label="Next project"
+                    >
+                      <ChevronRight size={28} />
+                    </button>
+                  </>
+                )}
               </DialogPrimitive.Content>
             </DialogPrimitive.Portal>
           </DialogPrimitive.Root>
