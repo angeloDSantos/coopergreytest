@@ -7,6 +7,7 @@ import coopersLogo from "@/assets/coopers-logo-hero.png";
 const LuxuryHero = () => {
   return (
     <section id="home" className="relative h-screen overflow-hidden pt-20">
+      <h1 className="sr-only">Guildford painter and decorator</h1>
       {/* Static Background - Mobile */}
       <div
         className="absolute inset-0 top-0 md:hidden"
@@ -39,7 +40,7 @@ const LuxuryHero = () => {
         <div className="absolute inset-0 flex items-center justify-center -mt-24">
           <img 
             src={coopersLogo} 
-            alt="Coopers Interiors - No job too big or small" 
+            alt="Coopers Interiors – Guildford painter and decorator and interior design Guildford specialist" 
             className="h-[28rem] sm:h-[36rem] md:h-[44rem] lg:h-[51rem] xl:h-[55rem] 2xl:h-[59rem] w-auto max-w-[90vw] object-contain animate-in fade-in duration-1000"
           />
         </div>

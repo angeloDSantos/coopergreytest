@@ -32,9 +32,9 @@ const AboutSection = () => {
             </div>
 
             <p className="font-poppins text-muted-foreground text-lg leading-relaxed">
-              Based in London, Coopers Interiors brings decades of expertise to every project. 
-              We specialize in transforming spaces through meticulous attention to detail and 
-              an unwavering commitment to quality.
+              Guildford painter and decorator Coopers Interiors brings decades of expertise to every project. 
+              We transform homes and interiors across Surrey, Woking and Cobham with meticulous attention to detail 
+              and an unwavering commitment to quality.
             </p>
 
             <p className="font-poppins text-muted-foreground text-lg leading-relaxed">

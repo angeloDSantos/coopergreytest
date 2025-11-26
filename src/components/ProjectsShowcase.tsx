@@ -161,8 +161,10 @@ const ProjectsShowcase = () => {
                     {mediaType === "images" ? (
                       <img
                         src={(item as typeof projects[0]).image}
-                        alt={item.title}
+                        alt={`${item.title} interior by Guildford painter and decorator serving Surrey, Woking, Esher and Cobham`}
                         className="w-full h-full object-cover md:object-contain transition-transform duration-300 group-hover:scale-105"
+                        loading="lazy"
+                        decoding="async"
                       />
                     ) : (
                       <div className="relative w-full h-full">
@@ -170,6 +172,7 @@ const ProjectsShowcase = () => {
                           ref={el => videoRefs.current[index] = el}
                           src={(item as typeof videos[0]).video}
                           className="w-full h-full object-cover md:object-contain"
+                          preload="metadata"
                           playsInline
                           onClick={(e) => {
                             e.stopPropagation();
@@ -239,7 +242,7 @@ const ProjectsShowcase = () => {
                     mediaType === "images" ? (
                       <img
                         src={(currentItems[fullscreenIndex] as typeof projects[0]).image}
-                        alt={currentItems[fullscreenIndex].title}
+                        alt={`${currentItems[fullscreenIndex].title} interior by Guildford painter and decorator in Surrey`}
                         className="max-w-full max-h-full object-contain"
                       />
                     ) : (

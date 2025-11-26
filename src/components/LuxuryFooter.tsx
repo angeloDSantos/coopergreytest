@@ -9,7 +9,13 @@ const LuxuryFooter = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12 md:items-start">
           <div className="flex flex-col">
             <div className="flex items-start mb-4">
-              <img src={coopersLogo} alt="Coopers Interiors" className="h-24 md:h-28 w-auto" />
+              <img
+                src={coopersLogo}
+                alt="Coopers Interiors – Guildford painter and decorator"
+                className="h-24 md:h-28 w-auto"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <p className="font-poppins text-muted-foreground leading-relaxed">
               Crafting elegant interiors with precision and care. London's trusted partner 
