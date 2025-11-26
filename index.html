@@ -44,12 +44,15 @@
   
   
   
-  <!-- Favicons for all devices and Google -->
+  <!-- Favicons for all devices and Google - Google prefers .ico format -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
+  <!-- Google Site Verification - helps with favicon indexing -->
+  <link rel="shortcut icon" href="/favicon.ico">
   
   
   
@@ -76,6 +79,16 @@
       "url": "https://www.coopersinteriors.co.uk/",
       "description": "Richmond painter and decorator and interior design specialists serving the London Boroughs of Richmond upon Thames, Ealing and Hounslow.",
       "telephone": "+44 1483 123 456",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "25",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://www.checkatrade.com/trades/coopersinteriors"
+      ],
       "areaServed": [
         { "@type": "AdministrativeArea", "name": "London Borough of Richmond upon Thames" },
         { "@type": "AdministrativeArea", "name": "London Borough of Ealing" },

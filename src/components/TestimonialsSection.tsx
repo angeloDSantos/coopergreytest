@@ -96,12 +96,23 @@ const TestimonialsSection = () => {
           <p className="font-poppins text-muted-foreground mb-4">
             Join our satisfied customers across West London
           </p>
-          <a
-            href="#contact"
-            className="inline-block font-poppins text-gold hover:text-gold-light transition-colors text-lg font-semibold"
-          >
-            Start your project today →
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
+            <a
+              href="#contact"
+              className="inline-block font-poppins text-gold hover:text-gold-light transition-colors text-lg font-semibold"
+            >
+              Start your project today →
+            </a>
+            <span className="text-muted-foreground">or</span>
+            <a
+              href="https://www.checkatrade.com/trades/coopersinteriors"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block font-poppins text-gold hover:text-gold-light transition-colors text-sm"
+            >
+              Read more reviews on Checkatrade →
+            </a>
+          </div>
         </div>
       </div>
     </section>

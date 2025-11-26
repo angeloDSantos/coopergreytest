@@ -66,10 +66,31 @@ const LuxuryFooter = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-border text-center">
-          <p className="font-poppins text-sm text-muted-foreground">
-            © {currentYear} Coopers Interiors. All rights reserved. Crafted with excellence.
-          </p>
+        <div className="pt-8 border-t border-border">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-6">
+            <p className="font-poppins text-sm text-muted-foreground text-center md:text-left">
+              © {currentYear} Coopers Interiors. All rights reserved. Crafted with excellence.
+            </p>
+            <div className="flex items-center gap-4">
+              <p className="font-poppins text-xs text-muted-foreground">
+                Verified by
+              </p>
+              <a 
+                href="https://www.checkatrade.com/trades/coopersinteriors" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+                aria-label="View our Checkatrade profile"
+              >
+                <img 
+                  src="https://www.checkatrade.com/images/checkatrade-badge.png" 
+                  alt="Checkatrade Verified" 
+                  className="h-10 md:h-12"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

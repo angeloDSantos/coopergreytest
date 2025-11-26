@@ -43,6 +43,37 @@ const AboutSection = () => {
               deserves the finest finish.
             </p>
 
+            {/* Checkatrade Verification */}
+            <div className="bg-background/50 p-6 rounded-lg border border-gold/20">
+              <div className="flex items-center gap-4 mb-3">
+                <a 
+                  href="https://www.checkatrade.com/trades/coopersinteriors" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                  aria-label="View our Checkatrade profile"
+                >
+                  <img 
+                    src="https://www.checkatrade.com/images/checkatrade-badge.png" 
+                    alt="Checkatrade Verified" 
+                    className="h-12"
+                    loading="lazy"
+                  />
+                </a>
+                <div>
+                  <p className="font-poppins font-semibold text-foreground">
+                    Checkatrade Verified
+                  </p>
+                  <p className="font-poppins text-sm text-muted-foreground">
+                    Rated 4.8/5 from 25+ reviews
+                  </p>
+                </div>
+              </div>
+              <p className="font-poppins text-sm text-muted-foreground">
+                We're proud to be a <a href="https://www.checkatrade.com/trades/coopersinteriors" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-light transition-colors">Checkatrade verified</a> painter and decorator, trusted by homeowners across Richmond, Ealing and Hounslow.
+              </p>
+            </div>
+
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
               <div>
                 <p className="font-poppins text-4xl font-bold text-gold mb-2">25+</p>
