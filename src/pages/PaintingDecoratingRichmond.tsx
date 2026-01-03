@@ -2,10 +2,17 @@ import Navigation from "@/components/Navigation";
 import LuxuryFooter from "@/components/LuxuryFooter";
 import { Button } from "@/components/ui/button";
 import BaroqueOrnaments from "@/components/BaroqueOrnaments";
+import SEOHead from "@/components/SEOHead";
 
 const PaintingDecoratingRichmond = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Painting and Decorating Services in Richmond | Coopers Interiors | Richmond Painter and Decorator"
+        description="Coopers Interiors: Expert Richmond painter and decorator services for homes and businesses across Richmond upon Thames. Professional painting, decorating, wallpapering, and decorative finishes. Call 07725 349084 for a free quote."
+        keywords="Coopers Interiors, Richmond painter and decorator, painting services Richmond, decorating services Richmond, Richmond upon Thames painter, professional painter Richmond, interior painting Richmond, exterior painting Richmond, wallpapering Richmond, decorative finishes Richmond"
+        canonical="https://www.coopersinteriors.co.uk/services/painting-decorating-richmond"
+      />
       <Navigation />
       
       <section className="pt-32 pb-20 bg-charcoal-light relative overflow-hidden">

@@ -2,10 +2,17 @@ import Navigation from "@/components/Navigation";
 import LuxuryFooter from "@/components/LuxuryFooter";
 import { Button } from "@/components/ui/button";
 import BaroqueOrnaments from "@/components/BaroqueOrnaments";
+import SEOHead from "@/components/SEOHead";
 
 const PlasteringEaling = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Professional Plastering Services in Ealing | Coopers Interiors | Ealing Plasterer"
+        description="Coopers Interiors: Expert Ealing plastering services for homes and businesses across the London Borough of Ealing. Professional skimming, replastering, patch repairs, decorative mouldings, and rendering. Call 07725 349084 for a free quote."
+        keywords="Coopers Interiors, Ealing plastering, plastering services Ealing, Ealing plasterer, skimming Ealing, replastering Ealing, patch repairs Ealing, decorative mouldings Ealing, rendering Ealing, Artex removal Ealing"
+        canonical="https://www.coopersinteriors.co.uk/services/plastering-ealing"
+      />
       <Navigation />
       
       <section className="pt-32 pb-20 bg-charcoal-light relative overflow-hidden">

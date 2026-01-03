@@ -1,34 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
   <url>
     <loc>https://www.coopersinteriors.co.uk/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.coopersinteriors.co.uk/coopers-logo.png</image:loc>
+      <image:title>Coopers Interiors - Richmond Painter and Decorator</image:title>
+      <image:caption>Coopers Interiors gold crest logo - Checkatrade Approved Richmond painter and decorator</image:caption>
+    </image:image>
   </url>
+  
+  <!-- Painting and Decorating Richmond Service Page -->
   <url>
     <loc>https://www.coopersinteriors.co.uk/services/painting-decorating-richmond</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.coopersinteriors.co.uk/coopers-logo.png</image:loc>
+      <image:title>Painting and Decorating Services in Richmond</image:title>
+      <image:caption>Coopers Interiors - Professional Richmond painter and decorator services</image:caption>
+    </image:image>
   </url>
+  
+  <!-- Plastering Ealing Service Page -->
   <url>
     <loc>https://www.coopersinteriors.co.uk/services/plastering-ealing</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.coopersinteriors.co.uk/coopers-logo.png</image:loc>
+      <image:title>Professional Plastering Services in Ealing</image:title>
+      <image:caption>Coopers Interiors - Expert Ealing plastering services</image:caption>
+    </image:image>
   </url>
+  
+  <!-- Interior Design Hounslow Service Page -->
   <url>
     <loc>https://www.coopersinteriors.co.uk/services/interior-design-hounslow</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.coopersinteriors.co.uk/coopers-logo.png</image:loc>
+      <image:title>Interior Design Services in Hounslow</image:title>
+      <image:caption>Coopers Interiors - Complete interior design solutions for Hounslow</image:caption>
+    </image:image>
   </url>
+  
+  <!-- Request Received Page (Lower Priority) -->
   <url>
     <loc>https://www.coopersinteriors.co.uk/request-received</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2026-01-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 </urlset>
-

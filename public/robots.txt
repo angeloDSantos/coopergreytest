@@ -1,3 +1,14 @@
+# robots.txt for Coopers Interiors
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes (if any)
+Disallow: /admin/
+Disallow: /api/
+
+# Allow specific bots explicitly
 User-agent: Googlebot
 Allow: /
 
@@ -10,7 +21,8 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
-
+# Sitemap location
 Sitemap: https://www.coopersinteriors.co.uk/sitemap.xml
+
+# Crawl delay (optional - remove if not needed)
+# Crawl-delay: 1

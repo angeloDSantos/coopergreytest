@@ -3,10 +3,18 @@ import { CheckCircle2, Home, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import LuxuryFooter from "@/components/LuxuryFooter";
+import SEOHead from "@/components/SEOHead";
 
 const RequestReceived = () => {
   return (
     <div className="min-h-screen bg-charcoal">
+      <SEOHead
+        title="Request Received | Coopers Interiors | Thank You"
+        description="Thank you for contacting Coopers Interiors. We've received your request and will get back to you within 24 hours. Call 07725 349084 for immediate assistance."
+        keywords="Coopers Interiors, request received, thank you, contact Coopers Interiors"
+        canonical="https://www.coopersinteriors.co.uk/request-received"
+        noindex={true}
+      />
       <Navigation />
       
       <main className="container mx-auto px-4 py-32">

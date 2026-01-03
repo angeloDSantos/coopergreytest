@@ -2,10 +2,17 @@ import Navigation from "@/components/Navigation";
 import LuxuryFooter from "@/components/LuxuryFooter";
 import { Button } from "@/components/ui/button";
 import BaroqueOrnaments from "@/components/BaroqueOrnaments";
+import SEOHead from "@/components/SEOHead";
 
 const InteriorDesignHounslow = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Interior Design Services in Hounslow | Coopers Interiors | Hounslow Interior Designer"
+        description="Coopers Interiors: Complete interior design solutions for homes and businesses across the London Borough of Hounslow. Expert room redesign, colour consultation, furniture sourcing, and project management. Call 07725 349084 for a free consultation."
+        keywords="Coopers Interiors, Hounslow interior design, interior designer Hounslow, interior design services Hounslow, room redesign Hounslow, colour consultation Hounslow, furniture sourcing Hounslow, home design Hounslow, interior design Chiswick, interior design Brentford"
+        canonical="https://www.coopersinteriors.co.uk/services/interior-design-hounslow"
+      />
       <Navigation />
       
       <section className="pt-32 pb-20 bg-charcoal-light relative overflow-hidden">
