@@ -11,8 +11,12 @@ import img7 from "@/Latest content 2/bathroom 2.jpg";
 import img8 from "@/Latest content 2/blue chair.jpg";
 import img9 from "@/Latest content 2/white room 2.jpg";
 import img10 from "@/Latest content 2/white room.jpg";
+import work1 from "@/assets/work-1-commercial-new.webp";
+import work2 from "@/assets/work-2-ceiling.png";
+import work3 from "@/assets/work-3-stairwell.png";
+import work4 from "@/assets/work-3-living.jpeg";
+import work5 from "@/assets/work-5-kitchen.png";
 import BaroqueOrnaments from "@/components/BaroqueOrnaments";
-import * as DialogPrimitive from "@radix-ui/react-dialog";
 
 const projects = [
   { image: img6, title: "Luxury Storage", category: "Cabinetry" },
@@ -25,6 +29,11 @@ const projects = [
   { image: img9, title: "Minimalist Space", category: "Residential" },
   { image: img10, title: "Luminous Interior", category: "Interior Design" },
   { image: img1, title: "Modern Transitions", category: "Interior Design" },
+  { image: work1, title: "Commercial Excellence", category: "Office Spaces" },
+  { image: work2, title: "Architectural Detail", category: "Residential" },
+  { image: work3, title: "Refined Stairwell", category: "Residential" },
+  { image: work4, title: "Contemporary Living", category: "Residential" },
+  { image: work5, title: "Ceiling Artistry", category: "Commercial" },
 ];
 
 const ProjectsShowcase = () => {
