@@ -16,9 +16,6 @@ import work2 from "@/assets/work-2-ceiling.png";
 import work3 from "@/assets/work-3-stairwell.png";
 import work4 from "@/assets/work-3-living.jpeg";
 import work5 from "@/assets/work-5-kitchen.png";
-import workOld1 from "@/assets/work-1.jpeg";
-import workOld2 from "@/assets/work-2.jpeg";
-import workOld3 from "@/assets/work-3.jpeg";
 import workOld4 from "@/assets/work-4.jpeg";
 import BaroqueOrnaments from "@/components/BaroqueOrnaments";
 
@@ -38,9 +35,6 @@ const projects = [
   { image: work3, title: "Refined Stairwell", category: "Residential" },
   { image: work4, title: "Contemporary Living", category: "Residential" },
   { image: work5, title: "Ceiling Artistry", category: "Commercial" },
-  { image: workOld1, title: "Modern Office Space", category: "Commercial" },
-  { image: workOld2, title: "Ornate Ceiling Design", category: "Decorative Finishes" },
-  { image: workOld3, title: "Classic Staircase", category: "Residential" },
   { image: workOld4, title: "Warm Living Space", category: "Painting & Decorating" },
 ];
 
